@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 # @Author: pchambers
 # @Date:   2016-01-08 17:35:49
 # @Last Modified by:   pchambers
-# @Last Modified time: 2016-01-08 18:18:59
+# @Last Modified time: 2016-01-08 18:40:15
 
 # Tell the system where conda is located:
 export PATH="/home/pchambers/anaconda2/bin:$PATH"
