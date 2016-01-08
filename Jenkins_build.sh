@@ -2,14 +2,13 @@
 # @Author: pchambers
 # @Date:   2016-01-08 17:35:49
 # @Last Modified by:   pchambers
-# @Last Modified time: 2016-01-08 17:54:57
+# @Last Modified time: 2016-01-08 18:01:21
 
 # Create the Conda test environment
 conda create --name jenkins_example_pytest python=2
 source activate jenkins_example_pytest
 
-pip install -e Example_pytest
-cd Example_pytest
+python setup.py install
 py.test -v
 
 # Clean the Conda test environment
