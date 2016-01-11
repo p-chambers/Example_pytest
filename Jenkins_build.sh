@@ -4,8 +4,11 @@
 # @Last Modified by:   pchambers
 # @Last Modified time: 2016-01-08 18:40:15
 
-# Tell the system where conda is located:
-export PATH="/home/pchambers/anaconda2/bin:$PATH"
+# Tell the system where conda is: MOVED TO ENVIRONMENT VARIABLES IN JENKINS 
+# export PATH="/home/pchambers/anaconda2/bin:$PATH"
+
+# Check which python will be used
+which python
 
 # Create the Conda test environment
 conda create --name jenkins_example_pytest python=2

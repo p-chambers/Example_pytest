@@ -2,3 +2,5 @@
 *.DS_Store
 .cache/
 my_pymodule.egg-info/
+build/
+dist/
