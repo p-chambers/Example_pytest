@@ -22,4 +22,4 @@ py.test -v
 
 # Clean the Conda test environment
 source deactivate
-conda env remove -n jenkins_example_pytest
+#conda env remove -n jenkins_example_pytest
