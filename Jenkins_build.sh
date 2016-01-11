@@ -14,6 +14,9 @@ which python
 conda create --name jenkins_example_pytest python=2
 source activate jenkins_example_pytest
 
+# Check which python will be used (should now be jenkins_home/.conda/ somewhere)
+which python
+
 python setup.py install
 py.test -v
 
