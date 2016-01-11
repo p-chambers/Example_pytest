@@ -9,8 +9,9 @@
 conda create --name jenkins_example_pytest python=2 pytest
 source activate jenkins_example_pytest
 
+# Install and Test the module, saving out as junitxml for jenkins
 python setup.py install
-py.test -v
+py.test -v --junitxml=pytest-report.xml
 
 # Clean the Conda test environment
 source deactivate
