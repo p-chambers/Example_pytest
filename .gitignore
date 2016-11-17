@@ -4,3 +4,5 @@
 my_pymodule.egg-info/
 build/
 dist/
+
+*.ipynb_checkpoints
